@@ -1,16 +1,16 @@
-#Beta Cell README
+# Beta Cell README
 
 
-##Overview: 
+## Overview: 
 
 The code found in this repo is used to perform QC on raw single cell data obtained from Balboa et al. and to produce a png image.
 The image produced describes the 3 variables: (# of RNA features, RNA counts, and mitochondrial gene expression) across the different transcriptomic datasets analyzed.
 
-##Analysis:
+## Analysis:
 
 The analysis performed is detailed and outlined at: <https://satijalab.org/seurat/archive/v3.0/pbmc3k_tutorial.html>
 
-##Data:
+## Data:
 
 This project repo is used to study publically available transcriptomic data available from:
 <https://singlecell.broadinstitute.org/single_cell/study/SCP1526/functional-metabolic-and-transcriptional-maturation-of-human-pancreatic-islets-derived-from-stem-cells?#study-summary>
@@ -24,7 +24,7 @@ in further efforts to understand and combat diabetes."
 
 *The code used to generate our first image is also available in this repo in the "Raw data" folder.
 
-##Installation:
+## Installation:
 
 1) To generate the 'QC plot.png' download the Raw Data in the "Raw data" file, and place it in a RStudio project directory with "main.R".
 2)
@@ -41,7 +41,7 @@ Install the following dependencies:
 
 3) Run uncommented code, by default the output image will be named "QC plot.png"
 
-##Folder Structure
+## Folder Structure
 
 		Main
 			.gitattributes				stores lfs file directories (large files)
@@ -53,7 +53,7 @@ Install the following dependencies:
 				endocrine.counts.mtx.gz		Endocrine UMI counts
 				features.tsv.gz				gene ids
 
-##Citation:
+## Citation:
 
 Functional, metabolic and transcriptional maturation of stem cell derived beta cells
 Diego Balboa, Tom Barsby, Väinö Lithovius, Jonna Saarimäki-Vire, Muhmmad Omar-Hmeadi,
