@@ -1,4 +1,6 @@
 #Beta Cell README
+
+
 ##Overview: 
 
 The code found in this repo sofar is used to perform QC on raw single cell data obtained from the 
@@ -6,9 +8,11 @@ The image produced describes the 3 variables: (# of RNA features, RNA counts, an
 across the different transcriptomic datasets analyzed.
 
 ##Analysis:
+
 The analysis performed is detailed and outlined at: <https://satijalab.org/seurat/archive/v3.0/pbmc3k_tutorial.html>
 
 ##Data:
+
 This project repo is used to study publically available transcriptomic data available from:
 <https://singlecell.broadinstitute.org/single_cell/study/SCP1526/functional-metabolic-and-transcriptional-maturation-of-human-pancreatic-islets-derived-from-stem-cells?#study-summary>
 This data contains scRNA data from in vitro and in vivo studies of stem cell derived islets and mature human islets.
@@ -25,21 +29,20 @@ The code used to generate our first image is also available in this repo in the 
 1) To generate the 'QC plot.png' download the Raw Data in the "Raw data" file, and place it in a RStudio project directory with "main.R".
 2)
 Install the following dependencies:
-Finding R package dependencies ... Done!
+
+		R version 4.2.2
   Package:			Version:
-1 devtools			2.4.5
-2 dplyr				1.1.0
-3 remotes			2.4.2
-4 Seurat			4.3.0
-5 SeuratData		0.2.2	   (code to download this librarie at the top of "main.R" NOT in CRAN)
-6 SeuratDisk		0.0.0.9020 (code to download this librarie at the top of "main.R" NOT in CRAN)
+  1 devtools			2.4.5
+  2 dplyr				1.1.0
+  3 remotes				2.4.2
+  4 Seurat				4.3.0
+  5 SeuratData			0.2.2	   (code to download this librarie at the top of "main.R" NOT in CRAN)
+  6 SeuratDisk			0.0.0.9020 (code to download this librarie at the top of "main.R" NOT in CRAN)
 
-R version 4.2.2
-
-3)
-Run uncommented code, by default the output image will be named "QC plot.png"
+3) Run uncommented code, by default the output image will be named "QC plot.png"
 
 ##Folder Structure
+
 -Main
 --.gitattributes				stores lfs file directories (large files)
 --.gitignore					stores ignore file directories
@@ -49,7 +52,9 @@ Run uncommented code, by default the output image will be named "QC plot.png"
 --barcodes.tsv.gz				cell ids
 --endocrine.counts.mtx.gz		Endocrine UMI counts
 --features.tsv.gz				gene ids
+
 ##Citation:
+
 Functional, metabolic and transcriptional maturation of stem cell derived beta cells
 Diego Balboa, Tom Barsby, Väinö Lithovius, Jonna Saarimäki-Vire, Muhmmad Omar-Hmeadi,
 Oleg Dyachok, Hossam Montaser, Per-Eric Lund, Mingyu Yang, Hazem Ibrahim, Anna Näätänen,
